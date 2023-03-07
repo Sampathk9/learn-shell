@@ -9,3 +9,7 @@ echo person is from ${city}
 #Here the date will change according to system's date since a command is executing for date variable
 DATE=$(date +%F)
 echo Today date is $DATE, Have a great day!
+
+#arithmetic substitution
+ADD=$((2+3))
+echo ADD -$ADD
