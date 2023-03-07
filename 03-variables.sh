@@ -12,4 +12,4 @@ echo Today date is $DATE, Have a great day!
 
 #arithmetic substitution
 ADD=$((2+3))
-echo ADD -$ADD
+echo ADD - $ADD
