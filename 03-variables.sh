@@ -2,5 +2,5 @@
 
 name=sampath
 city=hyderabad
-echo $name
-echo ${city}
+echo person name is $name
+echo person is from ${city}
