@@ -20,4 +20,8 @@ echo -e "\e[36mMESSAGE\e[0m"
 
 # https://misc.flogisoft.com/bash/tip_colors_and_formatting
 
+#new line -e is enable
 echo -e "Line1\nLine2"
+
+#tab space
+echo -e "Line1\tLine2"
