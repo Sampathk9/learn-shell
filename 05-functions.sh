@@ -5,8 +5,20 @@
 #function declare
 example() {
   echo I am a example function
+  echo 1 -$a
 
 }
 
 #call a function
 example
+a=10
+
+
+example1() {
+  echo example1 - abc
+  return 2
+  echo example1 - xyz
+}
+
+example1
+echo example1 return status - $?
